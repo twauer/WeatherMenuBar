@@ -22,11 +22,10 @@
                 <menuItem title="Item" id="jg6-77-YF4">
                     <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>
-                <menuItem title="Quit" id="2R7-hM-dma">
-                    <string key="keyEquivalent" base64-UTF8="YES">
-CA
-</string>
-                    <modifierMask key="keyEquivalentModifierMask"/>
+                <menuItem title="Quit" keyEquivalent="q" id="2R7-hM-dma">
+                    <connections>
+                        <action selector="quit:" target="Voe-Tx-rLC" id="0ru-Lr-4xe"/>
+                    </connections>
                 </menuItem>
             </items>
         </menu>

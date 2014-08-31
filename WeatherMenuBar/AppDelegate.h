@@ -19,6 +19,6 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
-- IBA
+- (IBAction) quit:(id)sender;
 
 @end

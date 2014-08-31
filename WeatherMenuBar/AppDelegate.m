@@ -105,5 +105,9 @@
 
 }
 
+- (IBAction) quit:(id)sender{
+    [NSApp terminate:self];
+}
+
 
 @end
