@@ -22,6 +22,12 @@
                 <menuItem title="Item" id="jg6-77-YF4">
                     <modifierMask key="keyEquivalentModifierMask"/>
                 </menuItem>
+                <menuItem title="Quit" id="2R7-hM-dma">
+                    <string key="keyEquivalent" base64-UTF8="YES">
+CA
+</string>
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
             </items>
         </menu>
     </objects>

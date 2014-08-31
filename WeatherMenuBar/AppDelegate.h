@@ -19,6 +19,6 @@
 
 @property (assign) IBOutlet NSWindow *window;
 
-
+- IBA
 
 @end
