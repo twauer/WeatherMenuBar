@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>97770257-EBD4-43AC-9077-0DF8ACB76D2B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WeatherMenuBar</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>77923D39-506D-4574-BE13-151E65E2EDD2</key>
+		<string>https://github.com/twauer/WeatherMenuBar.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WeatherMenuBar.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>77923D39-506D-4574-BE13-151E65E2EDD2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/twauer/WeatherMenuBar.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>77923D39-506D-4574-BE13-151E65E2EDD2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>77923D39-506D-4574-BE13-151E65E2EDD2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WeatherMenuBar</string>
+		</dict>
+	</array>
+</dict>
+</plist>
