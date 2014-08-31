@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E5AF5DD119B3593000B8E428 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AF5DD019B3593000B8E428 /* CoreLocation.framework */; };
 		E5EFB50519A1046000C56BA3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EFB50419A1046000C56BA3 /* Cocoa.framework */; };
 		E5EFB50F19A1046000C56BA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5EFB50D19A1046000C56BA3 /* InfoPlist.strings */; };
 		E5EFB51119A1046000C56BA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EFB51019A1046000C56BA3 /* main.m */; };
@@ -18,7 +19,6 @@
 		E5EFB52519A1046000C56BA3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5EFB50419A1046000C56BA3 /* Cocoa.framework */; };
 		E5EFB52D19A1046000C56BA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E5EFB52B19A1046000C56BA3 /* InfoPlist.strings */; };
 		E5EFB52F19A1046000C56BA3 /* WeatherMenuBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EFB52E19A1046000C56BA3 /* WeatherMenuBarTests.m */; };
-		E5EFB53919A10BB400C56BA3 /* Menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5EFB53819A10BB400C56BA3 /* Menu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E5AF5DD019B3593000B8E428 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		E5EFB50119A1046000C56BA3 /* WeatherMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5EFB50419A1046000C56BA3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E5EFB50719A1046000C56BA3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -51,7 +52,6 @@
 		E5EFB52A19A1046000C56BA3 /* WeatherMenuBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WeatherMenuBarTests-Info.plist"; sourceTree = "<group>"; };
 		E5EFB52C19A1046000C56BA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E5EFB52E19A1046000C56BA3 /* WeatherMenuBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeatherMenuBarTests.m; sourceTree = "<group>"; };
-		E5EFB53819A10BB400C56BA3 /* Menu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Menu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5AF5DD119B3593000B8E428 /* CoreLocation.framework in Frameworks */,
 				E5EFB50519A1046000C56BA3 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -97,6 +98,7 @@
 		E5EFB50319A1046000C56BA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E5AF5DD019B3593000B8E428 /* CoreLocation.framework */,
 				E5EFB50419A1046000C56BA3 /* Cocoa.framework */,
 				E5EFB52319A1046000C56BA3 /* XCTest.framework */,
 				E5EFB50619A1046000C56BA3 /* Other Frameworks */,
@@ -122,7 +124,6 @@
 				E5EFB51919A1046000C56BA3 /* MainMenu.xib */,
 				E5EFB51C19A1046000C56BA3 /* Images.xcassets */,
 				E5EFB50B19A1046000C56BA3 /* Supporting Files */,
-				E5EFB53819A10BB400C56BA3 /* Menu.xib */,
 			);
 			path = WeatherMenuBar;
 			sourceTree = "<group>";
@@ -234,7 +235,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5EFB50F19A1046000C56BA3 /* InfoPlist.strings in Resources */,
-				E5EFB53919A10BB400C56BA3 /* Menu.xib in Resources */,
 				E5EFB51D19A1046000C56BA3 /* Images.xcassets in Resources */,
 				E5EFB51519A1046000C56BA3 /* Credits.rtf in Resources */,
 				E5EFB51B19A1046000C56BA3 /* MainMenu.xib in Resources */,
@@ -470,6 +470,7 @@
 				E5EFB53419A1046000C56BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5EFB53519A1046000C56BA3 /* Build configuration list for PBXNativeTarget "WeatherMenuBarTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +479,7 @@
 				E5EFB53719A1046000C56BA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
